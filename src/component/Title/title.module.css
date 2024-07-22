@@ -1,0 +1,23 @@
+.title{
+  font-size: 1rem;
+  font-weight: 700;
+  width:fit-content;
+  margin-left: 3rem;
+ display: inline-block;
+ position: relative;
+ margin-bottom: 1.5rem;
+ height: 1rem;
+}
+
+.title::after{
+    content: "";
+    position: absolute;
+    width: 18.5rem;
+    height: 0.2rem;
+    background-color: black;
+    bottom: -0.9rem;
+    left: 0.2rem;
+
+}
+
+

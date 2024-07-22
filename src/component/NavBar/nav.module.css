@@ -1,0 +1,50 @@
+nav{
+    margin-bottom: 2rem;
+}
+
+.listStyle{
+    height: 3rem;
+    display: flex;
+    background-color: rgb(14, 14, 47);
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.listStyle li {
+ color: white;
+ margin-left: 1.5rem;
+ font-size: 0.9rem;
+}
+.listStyle div{
+    display: flex;
+}
+
+
+
+.svg{
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.svg span{
+    margin-right: 0.5rem;
+}
+.svg >svg{
+    font-size: 1.4rem;
+}
+
+.active{
+    color: #fb8c00 !important;
+}
+
+li{
+    list-style-type: none;
+}
+li>a{
+    font-family: sans-serif;
+    color: #ffffffde;
+}
