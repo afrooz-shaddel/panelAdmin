@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function TagMangement() {
-  return (
-    <div>TagMangement</div>
-  )
+  return <div>TagMangement</div>;
 }
